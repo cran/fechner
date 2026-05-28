@@ -20,7 +20,7 @@ wish
 \details{
   The \eqn{32} Morse-code-like signals in \cite{Wish's (1967)} study
   were \eqn{5}-element sequences
-  \eqn{T_1P_1T_2P_2T_3}{T\_1P_\1T\_2P\_2T\_3}, where \eqn{T} stands
+  \eqn{T_1P_1T_2P_2T_3}{T_1P_1T_2P_2T_3}, where \eqn{T} stands
   for a tone (short or long) and \eqn{P} stands for a pause (\eqn{1}
   or \eqn{3} units long).  As in \cite{Dzhafarov and Colonius (2006)},
   the stimuli are labeled \eqn{A}, \eqn{B}, \ldots, \eqn{Z}, \eqn{0},
@@ -34,11 +34,11 @@ wish
 \note{
   The original \cite{Wish's (1967)} \eqn{32\times 32}{32x32} dataset
   does not satisfy regular minimality.  There is the entry
-  \eqn{p_{TV} = 0.03}{p\_TV = 0.03}, which is the same as
-  \eqn{p_{VV}}{p\_VV} and smaller than
-  \eqn{p_{TT} = 0.06}{p\_TT = 0.06}.  Following the argument in
+  \eqn{p_{TV} = 0.03}{p_TV = 0.03}, which is the same as
+  \eqn{p_{VV}}{p_VV} and smaller than
+  \eqn{p_{TT} = 0.06}{p_TT = 0.06}.  Following the argument in
   \cite{Dzhafarov and Colonius (2006)}, a statistically compatible
-  dataset is obtained by replacing the value of \eqn{p_{TV}}{p\_TV}
+  dataset is obtained by replacing the value of \eqn{p_{TV}}{p_TV}
   with \eqn{0.07} and leaving the rest of the data unchanged.  The
   latter is the dataset accompanying the package \code{fechner}.
 
@@ -67,7 +67,7 @@ wish
   Uenlue, A. and Kiefer, T. and Dzhafarov, E. N.
   (2009) Fechnerian scaling in \R: The package \pkg{fechner}.
   \emph{Journal of Statistical Software}, \bold{31}(6), 1--24.
-  URL \url{http://www.jstatsoft.org/v31/i06/}.
+  URL \url{https://www.jstatsoft.org/article/view/v031i06}.
 }
 \seealso{
   \code{\link{check.data}} for checking data format;

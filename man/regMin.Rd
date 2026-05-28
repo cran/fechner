@@ -21,7 +21,7 @@ regMin
   This dataset is artificial and included for illustrating regular
   minimality in the non-canonical form.  It differs from the
   artificial data \code{\link{noRegMin}} only in the entry in row
-  \#\eqn{9} and column \#\eqn{10}.
+  #\eqn{9} and column #\eqn{10}.
 }
 \references{
   Dzhafarov, E. N. and Colonius, H. (2006) Reconstructing distances
@@ -35,7 +35,7 @@ regMin
   Uenlue, A. and Kiefer, T. and Dzhafarov, E. N.
   (2009) Fechnerian scaling in \R: The package \pkg{fechner}.
   \emph{Journal of Statistical Software}, \bold{31}(6), 1--24.
-  URL \url{http://www.jstatsoft.org/v31/i06/}.
+  URL \url{https://www.jstatsoft.org/article/view/v031i06}.
 }
 \seealso{
   \code{\link{noRegMin}} for the other artificial data violating

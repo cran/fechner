@@ -22,7 +22,7 @@ morse
 \details{
   Each signal consists of a sequence of dots and dashes.  A chart of
   the Morse code letters and digits can be found at
-  \url{http://en.wikipedia.org/wiki/Morse_code}.
+  \url{https://en.wikipedia.org/wiki/Morse_code}.
 
   \cite{Rothkopf's (1957)} \eqn{36\times 36}{36x36} Morse code data
   gives the same-different judgements of \eqn{598} subjects in
@@ -37,11 +37,11 @@ morse
 \note{
   The original \cite{Rothkopf's (1957)} \eqn{36\times 36}{36x36}
   dataset does not satisfy regular maximality.  There are two maximal
-  entries in row \#\eqn{2}, of value \eqn{84}, which are
-  \eqn{p_{BB}}{p\_BB} and \eqn{p_{BX}}{p\_BX}.  Following the
+  entries in row #\eqn{2}, of value \eqn{84}, which are
+  \eqn{p_{BB}}{p_BB} and \eqn{p_{BX}}{p_BX}.  Following the
   argument in \cite{Dzhafarov and Colonius (2006)}, a statistically
   compatible dataset is obtained by replacing the value of
-  \eqn{p_{BX}}{p\_BX} with \eqn{83} and leaving the rest of the data
+  \eqn{p_{BX}}{p_BX} with \eqn{83} and leaving the rest of the data
   unchanged.  The latter is the dataset accompanying the package
   \code{fechner}.
 
@@ -71,7 +71,7 @@ morse
   Uenlue, A. and Kiefer, T. and Dzhafarov, E. N.
   (2009) Fechnerian scaling in \R: The package \pkg{fechner}.
   \emph{Journal of Statistical Software}, \bold{31}(6), 1--24.
-  URL \url{http://www.jstatsoft.org/v31/i06/}.
+  URL \url{https://www.jstatsoft.org/article/view/v031i06}.
 }
 \seealso{
   \code{\link{check.data}} for checking data format;

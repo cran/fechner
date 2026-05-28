@@ -72,7 +72,7 @@ check.data(X, format = c("probability.different", "percent.same",
   Uenlue, A. and Kiefer, T. and Dzhafarov, E. N.
   (2009) Fechnerian scaling in \R: The package \pkg{fechner}.
   \emph{Journal of Statistical Software}, \bold{31}(6), 1--24. 
-  URL \url{http://www.jstatsoft.org/v31/i06/}.
+  URL \url{https://www.jstatsoft.org/article/view/v031i06}.
 }
 \seealso{
   \code{\link{check.regular}} for checking regular 
@@ -81,10 +81,10 @@ check.data(X, format = c("probability.different", "percent.same",
   general information about this package.
 }
 \examples{
-## dataset \link{wish} is of probability-different format
+## dataset wish is of probability-different format
 check.data(wish)
 
-## dataset \link{morse} is of percent-same format
+## dataset morse is of percent-same format
 check.data(morse, format = "percent.same")
 
 ## a matrix without any labeling of rows and columns, of general format

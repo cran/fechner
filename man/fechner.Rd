@@ -180,7 +180,7 @@ fechner(X, format = c("probability.different", "percent.same", "general"),
   Uenlue, A. and Kiefer, T. and Dzhafarov, E. N.
   (2009) Fechnerian scaling in \R: The package \pkg{fechner}.
   \emph{Journal of Statistical Software}, \bold{31}(6), 1--24.
-  URL \url{http://www.jstatsoft.org/v31/i06/}.
+  URL \url{https://www.jstatsoft.org/article/view/v031i06}.
 }
 \seealso{
   \code{\link{check.data}} for checking data format;
@@ -198,15 +198,15 @@ fechner(X, format = c("probability.different", "percent.same", "general"),
 }
 \examples{
 ##
-## (1) examples based on dataset \link{morse}
+## (1) examples based on dataset morse
 ##
 
-## dataset \link{morse} satisfies regular maximality in canonical form
+## dataset morse satisfies regular maximality in canonical form
 morse
 check.regular(morse, type = "percent.same")
 
 ## a self-contained 10-code subspace consisting of the codes for the
-## letter B and the digits 0, 1, 2, 4, \ldots, 9
+## letter B and the digits 0, 1, 2, 4, ..., 9
 indices <- which(is.element(names(morse), c("B", c(0, 1, 2, 4:9))))
 f.scal.morse <- fechner(morse, format = "percent.same")
 f.scal.morse$geodesic.loops[indices, indices]
@@ -259,15 +259,15 @@ detailed.summary.mo <- summary(f.scal.subspace.long.mo, level = 3)
 str(detailed.summary.mo)
 
 ##
-## (2) examples based on dataset \link{wish}
+## (2) examples based on dataset wish
 ##
 
-## dataset \link{wish} satisfies regular minimality in canonical form
+## dataset wish satisfies regular minimality in canonical form
 wish
 check.regular(wish, type = "probability.different")
 
 ## a self-contained 10-code subspace consisting of S, U, W, X,
-## 0, 1, \ldots, 5
+## 0, 1, ..., 5
 indices <- which(is.element(names(wish), c("S", "U", "W", "X", 0:5)))
 f.scal.wish <- fechner(wish, format = "probability.different")
 f.scal.wish$geodesic.loops[indices, indices]
@@ -282,7 +282,7 @@ identical(f.scal.wish$geodesic.loops[indices, indices],
 identical(f.scal.wish$overall.Fechnerian.distances[indices, indices],
           f.scal.subspace.wi$overall.Fechnerian.distances)
 
-## dataset \link{wish} transformed to percent-same format
+## dataset wish transformed to percent-same format
 check.data(100 - (wish * 100), format = "percent.same")
 
 ## Fechnerian scaling analysis using short computation

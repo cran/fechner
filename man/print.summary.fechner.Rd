@@ -47,7 +47,7 @@
   Uenlue, A. and Kiefer, T. and Dzhafarov, E. N.
   (2009) Fechnerian scaling in \R: The package \pkg{fechner}.
   \emph{Journal of Statistical Software}, \bold{31}(6), 1--24.
-  URL \url{http://www.jstatsoft.org/v31/i06/}.
+  URL \url{https://www.jstatsoft.org/article/view/v031i06}.
 }
 \seealso{
   \code{\link{plot.fechner}}, the S3 method for plotting objects of
@@ -61,7 +61,7 @@
   information about this package.
 }
 \examples{
-## Fechnerian scaling of dataset \link{morse}
+## Fechnerian scaling of dataset morse
 ## summary information about the Fechnerian scaling object are printed
 ## accessing detailed summary through assignment
 (detailed.summary <- summary(fechner(morse, format = "percent.same")))

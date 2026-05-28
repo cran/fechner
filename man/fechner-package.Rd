@@ -17,8 +17,8 @@
   \tabular{ll}{
     Package: \tab \pkg{fechner}\cr
     Type: \tab Package\cr
-    Version: \tab 1.0-3\cr
-    Date: \tab 2016-06-05\cr
+    Version: \tab 1.0-4\cr
+    Date: \tab 2026-05-25\cr
     License: \tab \acronym{GPL} (>= 2)
   }
   Fechnerian scaling of discrete object (or stimulus) sets provides a
@@ -60,7 +60,7 @@
   Thomas Kiefer, Ali Uenlue.  Based on original MATLAB source by
   Ehtibar N. Dzhafarov.
 
-  Maintainer: Ali Uenlue <ali.uenlue@tum.de>
+  Maintainer: Ali Uenlue <aligalibuenlue@gmail.com>
 }
 \references{
   Dzhafarov, E. N. and Colonius, H. (2006) Reconstructing distances
@@ -74,6 +74,6 @@
   Uenlue, A. and Kiefer, T. and Dzhafarov, E. N.
   (2009) Fechnerian scaling in \R: The package \pkg{fechner}.
   \emph{Journal of Statistical Software}, \bold{31}(6), 1--24.
-  URL \url{http://www.jstatsoft.org/v31/i06/}.
+  URL \url{https://www.jstatsoft.org/article/view/v031i06}.
 }
 \keyword{package}

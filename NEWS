@@ -1,3 +1,10 @@
+Changes in Version 1.0-4
+
+  o CRAN package check results have been addressed and fixed, 
+    including calls to ‘R_registerRoutines’ and ‘R_useDynamicSymbols’ 
+    to register native routines and to disable symbol search, and 
+    minor changes of the documentation files.
+
 Changes in Version 1.0-3
 
   o CRAN package check results have been addressed and fixed.

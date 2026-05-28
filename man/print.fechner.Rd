@@ -39,7 +39,7 @@
   Uenlue, A. and Kiefer, T. and Dzhafarov, E. N.
   (2009) Fechnerian scaling in \R: The package \pkg{fechner}.
   \emph{Journal of Statistical Software}, \bold{31}(6), 1--24.
-  URL \url{http://www.jstatsoft.org/v31/i06/}.
+  URL \url{https://www.jstatsoft.org/article/view/v031i06}.
 }
 \seealso{
   \code{\link{plot.fechner}}, the S3 method for plotting objects of
@@ -53,7 +53,7 @@
   for general information about this package.
 }
 \examples{
-## Fechnerian scaling of dataset \link{wish}
+## Fechnerian scaling of dataset wish
 ## overall Fechnerian distances and geodesic loops are printed
 (f.scal.wish <- fechner(wish))
 }

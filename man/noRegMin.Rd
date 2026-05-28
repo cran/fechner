@@ -20,8 +20,8 @@ noRegMin
 \note{
   This dataset is artificial and included for illustrating regular
   minimality being violated.  It differs from the artificial data
-  \code{\link{regMin}} only in the entry in row \#\eqn{9} and column
-  \#\eqn{10}.
+  \code{\link{regMin}} only in the entry in row #\eqn{9} and column
+  #\eqn{10}.
 }
 \references{
   Dzhafarov, E. N. and Colonius, H. (2006) Reconstructing distances
@@ -35,7 +35,7 @@ noRegMin
   Uenlue, A. and Kiefer, T. and Dzhafarov, E. N.
   (2009) Fechnerian scaling in \R: The package \pkg{fechner}.
   \emph{Journal of Statistical Software}, \bold{31}(6), 1--24.
-  URL \url{http://www.jstatsoft.org/v31/i06/}.
+  URL \url{https://www.jstatsoft.org/article/view/v031i06}.
 }
 \seealso{
   \code{\link{regMin}} for the other artificial data satisfying

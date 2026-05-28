@@ -3,7 +3,7 @@
 SEXP shortestPathsInformation(SEXP sM){
 /* INPUT
  * M: an adjacency matrix (in Fechnerian scaling context, matrices of the psychometric increments
- *    of the first and second kind 
+ *    of the first and second kind) 
  */
 
 /****************************************************/

@@ -54,12 +54,12 @@ check.regular(X, type = c("probability.different", "percent.same",
   \enumerate{
     \item every row contains a single minimal/maximal entry;
     \item every column contains a single minimal/maximal entry;
-    \item an entry \eqn{p_{ij}}{p\_ij} of \code{X} which is 
+    \item an entry \eqn{p_{ij}}{p_ij} of \code{X} which is 
       minimal/maximal in the \eqn{i}{i}th row is also minimal/maximal
       in the \eqn{j}{j}th column, and vice versa.
   }
 
-  If \eqn{p_{ij}}{p\_ij} is the entry which is minimal/maximal in
+  If \eqn{p_{ij}}{p_ij} is the entry which is minimal/maximal in
   the \eqn{i}{i}th row and in the \eqn{j}{j}th column, the
   \eqn{i}{i}th row object (in one, the first, observation area) and
   the \eqn{j}{j}th column object (in the other, the second,
@@ -111,7 +111,7 @@ check.regular(X, type = c("probability.different", "percent.same",
   Uenlue, A. and Kiefer, T. and Dzhafarov, E. N.
   (2009) Fechnerian scaling in \R: The package \pkg{fechner}.
   \emph{Journal of Statistical Software}, \bold{31}(6), 1--24.
-  URL \url{http://www.jstatsoft.org/v31/i06/}.
+  URL \url{https://www.jstatsoft.org/article/view/v031i06}.
 }
 \seealso{
   \code{\link{check.data}} for checking data format;
@@ -120,22 +120,22 @@ check.regular(X, type = c("probability.different", "percent.same",
   about this package.
 }
 \examples{
-## dataset \link{wish} satisfies regular minimality in canonical form
+## dataset wish satisfies regular minimality in canonical form
 check.regular(wish)
 
-## dataset \link{regMin} satisfies regular minimality in non-canonical
+## dataset regMin satisfies regular minimality in non-canonical
 ## form and so is canonically transformed and relabeled
 regMin
 check.regular(regMin)
 
-## dataset \link{noRegMin} does satisfy neither regular minimality nor
+## dataset noRegMin does satisfy neither regular minimality nor
 ## regular maximality
 check.regular(noRegMin, type = "probability.different")
 check.regular(noRegMin, type = "reg.maximal")
 
-## dataset \link{morse} satisfies regular maximality in canonical form
+## dataset morse satisfies regular maximality in canonical form
 check.regular(morse, type = "percent.same")
-## part of \link{morse} data satisfies regular maximality
+## part of morse data satisfies regular maximality
 check.regular(morse[c(2, 27:36), c(2, 27:36)], type = "reg.maximal")
 }
 \keyword{manip}

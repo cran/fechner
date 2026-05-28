@@ -1,20 +1,23 @@
-citHeader("To cite fechner in publications use:")
+citHeader("To cite 'fechner' in publications:")
 
-citEntry(entry = "Article",
-  title        = "Fechnerian Scaling in {R}: The Package {fechner}",
-  author       = personList(as.person("Ali \\\"Unl\\\"u"),
-                   as.person("Thomas Kiefer"),
-                   as.person("Ehtibar N. Dzhafarov")),
-  journal      = "Journal of Statistical Software",
-  year         = "2009",
-  volume       = "31",
-  number       = "6",
-  pages        = "1--24",
-  url          = "https://www.jstatsoft.org/article/view/v031i06",
+## R software reference
+citation(auto = meta)
 
-  textVersion  =
-  paste("Ali Uenlue, Thomas Kiefer, Ehtibar N. Dzhafarov (2009).",
-        "Fechnerian Scaling in R: The Package fechner.",
-        "Journal of Statistical Software, 31(6), 1-24.",
-        "URL https://www.jstatsoft.org/article/view/v031i06.")
+## JSS article reference
+bibentry(bibtype      = "Article",
+         title        = "Fechnerian Scaling in {R}: The Package {fechner}",
+         author       = c(person("Ali", "\\\"Unl\\\"u"),
+                          person("Thomas", "Kiefer"),
+                          person(c("Ehtibar", "N."), "Dzhafarov")),
+         journal      = "Journal of Statistical Software",
+         year         = "2009",
+         volume       = "31",
+         number       = "6",
+         pages        = "1--24",
+         url          = "https://www.jstatsoft.org/article/view/v031i06",
+
+         textVersion  = paste("Ali Uenlue, Thomas Kiefer, Ehtibar N. Dzhafarov (2009).",
+                              "Fechnerian Scaling in R: The Package fechner.",
+                              "Journal of Statistical Software, 31(6), 1-24.",
+                              "URL https://www.jstatsoft.org/article/view/v031i06.")
 )
